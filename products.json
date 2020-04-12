@@ -1,0 +1,359 @@
+{
+  "states": [
+    {
+      "pid": 1,
+      "name": "ANDAMAN",
+      "today": 0,
+      "active": 11,
+      "recover": 0,
+      "dec": 0,
+      "id": 1
+    },
+    {
+      "pid": 2,
+      "name": "ANDHRA P",
+      "today": 15,
+      "active": 363,
+      "recover": 9,
+      "dec": 3,
+      "id": 2
+    },
+    {
+      "pid": 3,
+      "name": "ARUNACHAL P",
+      "today": 0,
+      "active": 1,
+      "recover": 0,
+      "dec": 0,
+      "id": 3
+    },
+    {
+      "pid": 4,
+      "name": "ASSAM",
+      "today": 1,
+      "active": 29,
+      "recover": 0,
+      "dec": 0,
+      "id": 4
+    },
+    {
+      "pid": 5,
+      "name": "BIHAR",
+      "today": 12,
+      "active": 51,
+      "recover": 15,
+      "dec": 1,
+      "id": 5
+    },
+    {
+      "pid": 6,
+      "name": "CHANDIGARH",
+      "today": 0,
+      "active": 18,
+      "recover": 7,
+      "dec": 0,
+      "id": 6
+    },
+    {
+      "pid": 7,
+      "name": "CHHATTISGARH",
+      "today": 8,
+      "active": 18,
+      "recover": 9,
+      "dec": 0,
+      "id": 7
+    },
+    {
+      "pid": 8,
+      "name": "DADRA",
+      "today": 0,
+      "active": 1,
+      "recover": 0,
+      "dec": 0,
+      "id": 8
+    },
+    {
+      "pid": 9,
+      "name": "DELHI",
+      "today": 51,
+      "active": 720,
+      "recover": 25,
+      "dec": 12,
+      "id": 9
+    },
+    {
+      "pid": 10,
+      "name": "GOA",
+      "today": 0,
+      "active": 7,
+      "recover": 0,
+      "dec": 0,
+      "id": 10
+    },
+    {
+      "pid": 11,
+      "name": "GUJARAT",
+      "today": 76,
+      "active": 262,
+      "recover": 26,
+      "dec": 17,
+      "id": 11
+    },
+    {
+      "pid": 12,
+      "name": "HARYANA",
+      "today": 3,
+      "active": 170,
+      "recover": 32,
+      "dec": 2,
+      "id": 12
+    },
+    {
+      "pid": 13,
+      "name": "HIMACHAL P",
+      "today": 1,
+      "active": 28,
+      "recover": 2,
+      "dec": 2,
+      "id": 13
+    },
+    {
+      "pid": 14,
+      "name": "JAMMU&KASHMIR",
+      "today": 26,
+      "active": 184,
+      "recover": 6,
+      "dec": 4,
+      "id": 14
+    },
+    {
+      "pid": 15,
+      "name": "JHARKHAND",
+      "today": 9,
+      "active": 13,
+      "recover": 0,
+      "dec": 1,
+      "id": 15
+    },
+    {
+      "pid": 16,
+      "name": "KARNATAKA",
+      "today": 16,
+      "active": 197,
+      "recover": 30,
+      "dec": 6,
+      "id": 16
+    },
+    {
+      "pid": 17,
+      "name": "KERALA",
+      "today": 12,
+      "active": 357,
+      "recover": 97,
+      "dec": 2,
+      "id": 17
+    },
+    {
+      "pid": 18,
+      "name": "LADAKH",
+      "today": 0,
+      "active": 14,
+      "recover": 10,
+      "dec": 0,
+      "id": 18
+    },
+    {
+      "pid": 19,
+      "name": "MADHA P",
+      "today": 56,
+      "active": 397,
+      "recover": 25,
+      "dec": 26,
+      "id": 19
+    },
+    {
+      "pid": 20,
+      "name": "MAHARASHTRA",
+      "today": 211,
+      "active": 1346,
+      "recover": 117,
+      "dec": 81,
+      "id": 20
+    },
+    {
+      "pid": 21,
+      "name": "MANIPUR",
+      "today": 0,
+      "active": 2,
+      "recover": 1,
+      "dec": 0,
+      "id": 21
+    },
+    {
+      "pid": 22,
+      "name": "MIZORAM",
+      "today": 0,
+      "active": 1,
+      "recover": 0,
+      "dec": 0,
+      "id": 22
+    },
+    {
+      "pid": 23,
+      "name": "ODISHA",
+      "today": 2,
+      "active": 44,
+      "recover": 2,
+      "dec": 1,
+      "id": 23
+    },
+    {
+      "pid": 24,
+      "name": "PUDUCHERRY",
+      "today": 0,
+      "active": 5,
+      "recover": 1,
+      "dec": 0,
+      "id": 24
+    },
+    {
+      "pid": 25,
+      "name": "PUNJAB",
+      "today": 24,
+      "active": 130,
+      "recover": 18,
+      "dec": 10,
+      "id": 25
+    },
+    {
+      "pid": 26,
+      "name": "RAJASTHAN",
+      "today": 47,
+      "active": 430,
+      "recover": 45,
+      "dec": 3,
+      "id": 26
+    },
+    {
+      "pid": 27,
+      "name": "TAMIL NADU",
+      "today": 96,
+      "active": 834,
+      "recover": 27,
+      "dec": 8,
+      "id": 27
+    },
+    {
+      "pid": 28,
+      "name": "TELENGANA",
+      "today": 18,
+      "active": 471,
+      "recover": 45,
+      "dec": 11,
+      "id": 28
+    },
+    {
+      "pid": 29,
+      "name": "TRIPURA",
+      "today": 0,
+      "active": 1,
+      "recover": 0,
+      "dec": 0,
+      "id": 29
+    },
+    {
+      "pid": 30,
+      "name": "UTTAR PRADESH",
+      "today": 49,
+      "active": 410,
+      "recover": 31,
+      "dec": 4,
+      "id": 30
+    },
+    {
+      "pid": 31,
+      "name": "UTTARAKHAND",
+      "today": 0,
+      "active": 35,
+      "recover": 5,
+      "dec": 0,
+      "id": 31
+    },
+    {
+      "pid": 32,
+      "name": "WEST BENGAL",
+      "today": 4,
+      "active": 103,
+      "recover": 16,
+      "dec": 5,
+      "id": 32
+    }
+  ],
+  "results": [
+    {
+      "id": "1",
+      "month": "MARCH 30",
+      "cases": "1329"
+    },
+    {
+      "id": "2",
+      "month": "MARCH 31",
+      "cases": "1635"
+    },
+    {
+      "id": "3",
+      "month": "APRIL 01",
+      "cases": "2059"
+    },
+    {
+      "id": "4",
+      "month": "APRIL 02",
+      "cases": "2554"
+    },
+    {
+      "id": "5",
+      "month": "APRIL 03",
+      "cases": "3105"
+    },
+    {
+      "id": "6",
+      "month": "APRIL 04",
+      "cases": "3684"
+    },
+    {
+      "id": "7",
+      "month": "APRIL 05",
+      "cases": "4289"
+    },
+    {
+      "month": "APRIL 06",
+      "cases": "4700",
+      "id": "8"
+    },
+    {
+      "id": 9,
+      "month": "APRIL 07",
+      "cases": 5373
+    },
+    {
+      "id": 10,
+      "month": "APRIL 08",
+      "cases": 5945
+    },
+    {
+      "id": 11,
+      "month": "APRIL 9",
+      "cases": 6725
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "MadhaPradesh",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

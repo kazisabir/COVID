@@ -1,0 +1,133 @@
+
+<div><app-header></app-header></div>
+<!-- <div><h2><b>COVIDINDIA</b></h2></div> -->
+  <div style="margin-left: 100px; margin-right: 100px;">
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col" (click)="showDialog()"><div class="card" style="width: 7rem; height: 6rem; color:black; background-color: red;" >
+                <div class="card-body">
+                  <h5 class="card-title">Active </h5>
+                  <h6  style="color: white; font-size: 20px; ">{{this.totalActive}}</h6>
+                  
+                </div>
+              </div></th>
+            <th scope="col"><div class="card" style="width: 7rem; height: 6rem; color:black; background-color:rgb(77, 164, 214)" >
+                <div class="card-body">
+                  <h5 class="card-title">Recent</h5>
+                  <h6  style="color: white; font-size: 20px; "> {{this.totaltoday}}</h6>
+                  
+                </div>
+              </div></th>
+            <th scope="col"><div class="card" style="width: 7rem; height: 6rem; color:black; background-color:rgb(17, 221, 17);" >
+                <div class="card-body">
+                  <h5 class="card-title">Recov</h5>
+                  <h6  style="color: white; font-size: 20px; ">{{this.totalrecover}}</h6>
+                  
+                </div>
+              </div></th>
+            <th scope="col"><div class="card" style="width: 7rem; height: 6rem; color:black; background-color: rgb(214, 6, 6);" >
+                <div class="card-body">
+                  <h5 class="card-title">Deaths</h5>
+                  <h6 style="color: white; font-size: 20px; ">{{this.totaldeath}}</h6>
+                  
+                </div>
+
+                
+              </div></th>
+          </tr>
+        </thead>
+        <tbody>     
+        </tbody>
+      </table>
+  </div>
+
+
+
+
+<div class="text-center">
+<a class="btn btn-warning btn-md" routerLink="/add">
+    <i class="fa fa-plus"></i> Add New States/Ut</a>
+    </div>
+       
+            <div class="card-body">
+              <table class="table table-striped" style="border: 1px solid ;">
+                <thead class="blue-grey lighten-4 text-center" style="border: 1px solid ;">
+                  <tr style="border: 1px solid ;">
+                    <th>ID</th>
+                      <th>State ID</th>
+                    <th>Name</th>
+                    <th>Today's N/C</th>
+                    <th>ActiveCases</th>   
+                    <th>Recovered</th>
+                    <th>Deceased</th>
+                    <th>Action1</th>
+                    <th>Action2</th>
+                    
+                  </tr>
+                </thead>
+                <tbody style="border: 1px solid ;">
+                    <tr *ngFor="let state of states">
+                        <td>{{state.id}}</td>
+                        <td>{{state.pid}}</td>
+                        <td>{{state.name}}</td>
+                        <td>{{state.today}}</td>
+                        <td>{{state.active}}</td>
+                        <td>{{state.recover}}</td>
+                        <td>{{state.dec}}</td>
+                       
+
+
+                        <td>
+                            <a class="btn btn-outline-warning btn-sm" [routerLink]="['/update', state.id]">Update</a>
+        
+                          </td>
+                          <td>
+
+                            <a class="btn btn-danger btn-sm" (click)="deleteProduct(state.id)">Delete</a>
+        
+                          </td>
+                          
+
+                    </tr>
+                    
+                  
+  
+  
+                   
+                </tbody>
+              </table>
+              
+              <div id="myModal" class="modal"  *ngIf="showmodal">
+
+                <!-- Modal content -->  
+                
+                <div class="modal-content" >
+                    <span (click)="showDialog()">Close</span>
+                    
+                    <div class="chartCovid" style="width:100%;">
+                        <div *ngIf="chart" class="chartMain">
+                            <canvas id="canvas">{{ chart }}</canvas>
+                          </div>
+                      </div>
+                </div>
+              
+              </div>
+              <div><hr></div>
+              <div><hr></div>
+              <div><h4 style="color: brown;"><b>SPREAD TRENDS:</b></h4></div>
+              <a class="btn btn-warning btn-md" routerLink="/graph">
+                <i class="fa fa-plus"></i> Update Graph</a>
+
+
+
+              <div class="modal-content" >
+               
+                
+                <div class="chartCovid" style="width:100%;">
+                    <div *ngIf="chart" class="chartMain">
+                        <canvas id="canvas">{{ chart }}</canvas>
+                      </div>
+                  </div>
+            </div>
+            

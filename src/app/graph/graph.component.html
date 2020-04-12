@@ -1,0 +1,41 @@
+<a class="btn btn-primary btn-lg" routerLink="/">
+    <i class="fa fa-arrow-left"></i> Back</a>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-header">
+            <h2>
+              Update Graph
+            </h2>
+          </div>
+          <div class="card-body">
+            <form id="formNewProduct" name='formNewProduct' #graphInfo="ngForm" (ngSubmit)="UpdateGraph(graphInfo.value)">
+                <div class="form-group">
+                    <label> ID:</label>
+                    <input class="form-control" type="number" name="gid" id="gid" placeholder="Enter ID" ngModel>
+                  </div>
+      
+                  <br>
+              <div class="form-group">
+                <label> Month:</label>
+                <input class="form-control" type="text" name="month" id="month" placeholder="Enter Month" ngModel>
+              </div>
+  
+              <br>
+  
+              <div class="form-group">
+                <label>Cases:</label>
+                <input class="form-control" type="number" name="cases" id="cases" placeholder="Enter Cases" ngModel>
+              </div>
+              
+              <input class="btn btn-success justify ml-5" type="submit" value="Update Grapg">
+            </form>
+            <h3 class="text-success" *ngIf="isAdded">{{confirmationString}}</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4"></div>
+    </div>
+  </div>

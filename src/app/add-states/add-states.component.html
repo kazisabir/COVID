@@ -1,0 +1,61 @@
+<a class="btn btn-primary btn-lg" routerLink="/">
+    <i class="fa fa-arrow-left"></i> Back</a>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-header">
+            <h2>
+              Add New State
+            </h2>
+          </div>
+          <div class="card-body">
+            <form id="formNewProduct" name='formNewProduct' #stateInfo="ngForm" (ngSubmit)="addNewState(stateInfo.value)">
+              <div class="form-group">
+                <label> State ID:</label>
+                <input class="form-control" type="number" name="pid" id="pid" placeholder="Enter State ID" ngModel>
+              </div>
+  
+              <br>
+  
+              <div class="form-group">
+                <label>State Name:</label>
+                <input class="form-control" type="text" name="name" id="name" placeholder="Enter State Name" ngModel>
+              </div>
+              <br>
+              <div class="form-group">
+                <label>Today's New Cases:</label>
+                <input class="form-control" type="number" name="today" id="today" placeholder="Enter Today's Cases" ngModel>
+              </div>
+              <br>
+
+  
+              <div class="form-group">
+                <label>Active Cases:</label>
+                <input class="form-control" type="number" name="active" id="active" placeholder="Enter Active Cases" ngModel>
+              </div>
+              <br>
+
+              
+              <div class="form-group">
+                <label>Recovered:</label>
+                <input class="form-control" type="number" name="recover" id="recover" placeholder="Enter Total Recover" ngModel>
+              </div>
+              <br>
+
+              <div class="form-group">
+                <label>Deaths:</label>
+                <input class="form-control" type="number" name="dec" id="dec" placeholder="Enter Deaths Cases" ngModel>
+              </div>
+              <br>
+  
+              <input class="btn btn-success justify ml-5" type="submit" value="Add States">
+            </form>
+            <h3 class="text-success" *ngIf="isAdded">{{confirmationString}}</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4"></div>
+    </div>
+  </div>

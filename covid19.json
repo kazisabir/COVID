@@ -1,0 +1,18 @@
+[
+    {
+        "state":"Bihar",
+        "date":"19-march-20",
+        "positive":1,
+        "recovered":0,
+        "death":0
+
+    },
+    {
+        "state":"Bihar",
+        "date":"20-march-20",
+        "positive":5,
+        "recovered":0,
+        "death":1
+
+    }
+]
